@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+
+.nav-btns {
+    display: flex;
+    gap: 8 px;
+    align-items: center;
+}
+
+.nav-btns button {
+    cursor: pointer;
+}
+
+nav>div {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.hero-section {
+    display: flex;
+    padding: 0 40px;
+    margin-top: 90px;
+    gap: 200px;
+    align-items: center;
+}
+
+.hero-section h1 {
+    width: 500px;
+    font-size: 52px;
+}
+
+.hero-section p {
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.hero-btn {
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.right > div {
+    cursor: pointer;
+}
+
+.img-div {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    background-image: url("./Images/developer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-div img {
+    width: 100%;
+    height: auto;
+}
+
+
+body.dark {
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: white;
+    transition-duration: 1s;
+}
+
+body.dark nav {
+    color: white;
+}
+
+body.dark .hero-btn {
+    background-color: white;
+    color: black;
+}
+
+body.dark button {
+    color: white;
+}
+
+body.dark ul li {
+    color: white;
+}
