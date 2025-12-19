@@ -12,16 +12,6 @@ nav {
     justify-content: space-between;
 }
 
-.nav-btns {
-    display: flex;
-    gap: 8 px;
-    align-items: center;
-}
-
-.nav-btns button {
-    cursor: pointer;
-}
-
 nav>div {
     display: flex;
 }
